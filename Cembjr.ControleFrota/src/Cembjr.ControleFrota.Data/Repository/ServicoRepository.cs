@@ -19,5 +19,10 @@ namespace Cembjr.ControleFrota.Data.Repository
         {
             return await Query().Include(x => x.Motorista).Include(x => x.Atendente).Include(x => x.Veiculo).ToListAsync();
         }
+
+        public override async Task<Servico> ObterPorId(Guid id)
+        {
+            return await Query().Include(x => x.Motorista).Include(x => x.Atendente).Include(x => x.Veiculo).FirstOrDefaultAsync(x => x.Id == id);
+        }
     }
 }
