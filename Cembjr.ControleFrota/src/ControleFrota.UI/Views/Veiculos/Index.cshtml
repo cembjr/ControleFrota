@@ -1,0 +1,49 @@
+﻿@model IEnumerable<Cembjr.ControleFrota.UI.ViewModels.VeiculoViewModel>
+
+@{
+    ViewData["Title"] = "Veiculos";
+}
+
+    <h1>@ViewData["Title"]</h1>
+
+<p>
+    <a class="btn btn-primary" asp-action="Create">Novo Veiculo</a>
+</p>
+<table class="table">
+    <thead class="table-dark">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Marca)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Modelo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Placa)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr class="table-hover">
+            <td>
+                @Html.DisplayFor(modelItem => item.Marca)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Modelo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Placa)
+            </td>
+            <td>
+                <div class="text-right">
+                    <a asp-action="Details" asp-route-id="@item.Id"><span class="btn btn-info fa fa-search"></span></a>
+                    <a asp-action="Edit" asp-route-id="@item.Id"><span class="btn btn-warning fa fa-pencil-alt"></span></a>
+                    <a asp-action="Delete" asp-route-id="@item.Id"><span class="btn btn-danger fa fa-trash"></span></a>
+                </div>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

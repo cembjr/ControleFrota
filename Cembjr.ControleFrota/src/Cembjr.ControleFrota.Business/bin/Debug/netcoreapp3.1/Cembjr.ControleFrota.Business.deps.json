@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Cembjr.ControleFrota.Business/1.0.0": {
+        "runtime": {
+          "Cembjr.ControleFrota.Business.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Cembjr.ControleFrota.Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,62 @@
+﻿@model IEnumerable<Cembjr.ControleFrota.UI.ViewModels.ServicoViewModel>
+
+@{
+    ViewData["Title"] = "Serviços";
+}
+
+    <h1>@ViewData["Title"]</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Novo</a>
+</p>
+<table class="table">
+    <thead class="table-dark">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Saida)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Chegada)
+            </th>
+            <th>
+                Atendente
+            </th>
+            <th>
+                Motorista
+            </th>
+            <th>
+                Veiculo
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody class="table-hover">
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Saida)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Chegada)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Atendente.Nome)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Motorista.Nome)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Veiculo.Placa)
+                </td>
+                <td>
+                    <div class="text-right">
+                        <a asp-action="Details" asp-route-id="@item.Id"><span class="btn btn-info fa fa-search"></span></a>
+                        <a asp-action="Edit" asp-route-id="@item.Id"><span class="btn btn-warning fa fa-pencil-alt"></span></a>
+                        <a asp-action="Delete" asp-route-id="@item.Id"><span class="btn btn-danger fa fa-trash"></span></a>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

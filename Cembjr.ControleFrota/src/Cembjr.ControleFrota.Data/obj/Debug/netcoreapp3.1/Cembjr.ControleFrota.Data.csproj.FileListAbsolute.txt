@@ -1,0 +1,15 @@
+C:\ControleFrota\Cembjr.ControleFrota\src\Cembjr.ControleFrota.Data\bin\Debug\netcoreapp3.1\Cembjr.ControleFrota.Data.deps.json
+C:\ControleFrota\Cembjr.ControleFrota\src\Cembjr.ControleFrota.Data\bin\Debug\netcoreapp3.1\Cembjr.ControleFrota.Data.runtimeconfig.json
+C:\ControleFrota\Cembjr.ControleFrota\src\Cembjr.ControleFrota.Data\bin\Debug\netcoreapp3.1\Cembjr.ControleFrota.Data.runtimeconfig.dev.json
+C:\ControleFrota\Cembjr.ControleFrota\src\Cembjr.ControleFrota.Data\bin\Debug\netcoreapp3.1\Cembjr.ControleFrota.Data.dll
+C:\ControleFrota\Cembjr.ControleFrota\src\Cembjr.ControleFrota.Data\bin\Debug\netcoreapp3.1\Cembjr.ControleFrota.Data.pdb
+C:\ControleFrota\Cembjr.ControleFrota\src\Cembjr.ControleFrota.Data\bin\Debug\netcoreapp3.1\Cembjr.ControleFrota.Business.dll
+C:\ControleFrota\Cembjr.ControleFrota\src\Cembjr.ControleFrota.Data\bin\Debug\netcoreapp3.1\Cembjr.ControleFrota.Business.pdb
+C:\ControleFrota\Cembjr.ControleFrota\src\Cembjr.ControleFrota.Data\obj\Debug\netcoreapp3.1\Cembjr.ControleFrota.Data.csprojAssemblyReference.cache
+C:\ControleFrota\Cembjr.ControleFrota\src\Cembjr.ControleFrota.Data\obj\Debug\netcoreapp3.1\Cembjr.ControleFrota.Data.AssemblyInfoInputs.cache
+C:\ControleFrota\Cembjr.ControleFrota\src\Cembjr.ControleFrota.Data\obj\Debug\netcoreapp3.1\Cembjr.ControleFrota.Data.AssemblyInfo.cs
+C:\ControleFrota\Cembjr.ControleFrota\src\Cembjr.ControleFrota.Data\obj\Debug\netcoreapp3.1\Cembjr.ControleFrota.Data.csproj.CoreCompileInputs.cache
+C:\ControleFrota\Cembjr.ControleFrota\src\Cembjr.ControleFrota.Data\obj\Debug\netcoreapp3.1\Cembjr.ControleFrota.Data.csproj.CopyComplete
+C:\ControleFrota\Cembjr.ControleFrota\src\Cembjr.ControleFrota.Data\obj\Debug\netcoreapp3.1\Cembjr.ControleFrota.Data.dll
+C:\ControleFrota\Cembjr.ControleFrota\src\Cembjr.ControleFrota.Data\obj\Debug\netcoreapp3.1\Cembjr.ControleFrota.Data.pdb
+C:\ControleFrota\Cembjr.ControleFrota\src\Cembjr.ControleFrota.Data\obj\Debug\netcoreapp3.1\Cembjr.ControleFrota.Data.genruntimeconfig.cache
